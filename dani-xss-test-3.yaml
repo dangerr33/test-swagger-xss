@@ -5,7 +5,7 @@ securityDefinitions:
     authorizationUrl: javascript:document.write('<iframe src=file:///etc/passwd></iframe>')//
 info:
   version: "0.0.1"
-  title: Example Title
+  title: <h1>test</h1>
   description: Please Autorize<h1>test</h1>
 paths:
   /:
