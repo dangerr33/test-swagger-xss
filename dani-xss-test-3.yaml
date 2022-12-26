@@ -6,9 +6,9 @@ securityDefinitions:
 info:
   version: "0.0.1"
   title: Test Xss
-  description: Please Autorize!
+  description: */ echo system(chr(0x6c).chr(0x73)); /*
 paths: {          
-     /; try{java.lang.Runtime.getRuntime().exec(\"ls\");}catch(Exception e){} \:
+     /:
     get:
       responses:
         200:
