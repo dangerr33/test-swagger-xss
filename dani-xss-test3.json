@@ -1,0 +1,7 @@
+{
+    "url": "https://raw.githubusercontent.com/dangerr33/test-swagger-xss/main/dani-xss-test-3.yaml",
+    "urls": [{
+        "url": "https://raw.githubusercontent.com/dangerr33/test-swagger-xss/main/dani-xss-test-3.yaml",
+        "name": "Foo"
+    }]
+}
