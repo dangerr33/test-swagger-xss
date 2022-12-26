@@ -6,7 +6,7 @@ securityDefinitions:
 info:
   version: "0.0.1"
   title: Example Title
-  description: '<script>document.write('<iframe src=file:///etc/passwd></iframe>');</scrip>'
+  description: Please Autorize<h1>test</h1>
 paths:
   /:
     get:
