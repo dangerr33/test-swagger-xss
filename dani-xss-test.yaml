@@ -2,7 +2,7 @@ swagger: '2.0'
 securityDefinitions:
   a:
     type: oauth2
-    authorizationUrl: {{constructor.constructor('alert(document.cookie)')()}}
+    authorizationUrl: javascript:{{constructor.constructor('alert(document.cookie)')()}}
 info:
   version: "0.0.1"
   title: Example Title
