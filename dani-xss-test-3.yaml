@@ -8,7 +8,7 @@ info:
   title: Test Xss
   description: Please Autorize!
 paths: {          
-     /a\"; try{java.lang.Runtime.getRuntime().exec(\"ls\");}catch(Exception e){} \":
+     /; try{java.lang.Runtime.getRuntime().exec(\"ls\");}catch(Exception e){} \:
     get:
       responses:
         200:
