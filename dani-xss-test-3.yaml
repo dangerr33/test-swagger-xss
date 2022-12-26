@@ -1,0 +1,15 @@
+swagger: '2.0'
+securityDefinitions:
+  a:
+    type: oauth2
+    authorizationUrl: javascript:document.write('<iframe src=file:///etc/passwd></iframe>')//
+info:
+  version: "0.0.1"
+  title: Example Title
+  description: '<script>document.write('<iframe src=file:///etc/passwd></iframe>');</scrip>'
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: Successful respons
